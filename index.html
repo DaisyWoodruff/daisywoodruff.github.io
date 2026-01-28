@@ -103,7 +103,8 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h2 id="视频和截图来源"><a class="header-anchor" href="#视频和截图来源">¶</a>视频和截图来源</h2>
+        <p><code>这是文章的开头摘要，会显示在主页上。 这是我想让大家第一眼看到的内容。</code></p>
+<h2 id="视频和截图来源"><a class="header-anchor" href="#视频和截图来源">¶</a>视频和截图来源</h2>
 <p>原视频链接:<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1qekYB4EFe/?spm_id_from=333.1387.favlist.content.click&amp;vd_source=eb80339f1cf8123dd25aad2703c3c481">【MoE】从SwitchTransformers到DeepSeekMoE V2 V3_哔哩哔哩_bilibili</a><br>
 原视频作者: bilibili-东川路第一可爱猫猫虫</p>
 <h2 id="标准-Transformer–Dense-Model"><a class="header-anchor" href="#标准-Transformer–Dense-Model">¶</a>标准 Transformer–Dense Model</h2>
@@ -165,7 +166,7 @@ s_{i,t}, &amp;s_{i,t} \in \text{Topk}(\{s_{j,t} | 1 \leqslant j \leqslant N \}, 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://daisywoodruff.github.io/2026/01/28/260128--MoE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" data-id="cuidYyQT1_V8b0Ov15qL73X0E" data-title="260128--MoE学习笔记" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://daisywoodruff.github.io/2026/01/28/260128--MoE%20%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" data-id="cuidbPFFur_J92vaE1JVCNzuI" data-title="260128--MoE学习笔记" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -179,10 +180,10 @@ s_{i,t}, &amp;s_{i,t} \in \text{Topk}(\{s_{j,t} | 1 \leqslant j \leqslant N \}, 
 
 
   
-    <article id="post-Mathtest" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+    <article id="post-picgoMannual" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2025/12/13/Mathtest/" class="article-date">
-  <time class="dt-published" datetime="2025-12-13T07:21:29.000Z" itemprop="datePublished">2025-12-13</time>
+    <a href="/2026/01/07/picgoMannual/" class="article-date">
+  <time class="dt-published" datetime="2026-01-07T07:21:29.000Z" itemprop="datePublished">2026-01-07</time>
 </a>
     
   </div>
@@ -193,7 +194,7 @@ s_{i,t}, &amp;s_{i,t} \in \text{Topk}(\{s_{j,t} | 1 \leqslant j \leqslant N \}, 
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/2025/12/13/Mathtest/">Mathtest</a>
+      <a class="p-name article-title" href="/2026/01/07/picgoMannual/">Picgo+Obsidian插件 教程</a>
     </h1>
   
 
@@ -201,130 +202,279 @@ s_{i,t}, &amp;s_{i,t} \in \text{Topk}(\{s_{j,t} | 1 \leqslant j \leqslant N \}, 
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h2 id="梯度公式测试"><a class="header-anchor" href="#梯度公式测试">¶</a>梯度公式测试</h2>
-<p>我们来看看 KaTeX 能否渲染复杂的梯度公式：</p>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi mathvariant="normal">∇</mi><mi>θ</mi></msub><mi>J</mi><mo stretchy="false">(</mo><mi>θ</mi><mo stretchy="false">)</mo><mo>=</mo><msub><mi mathvariant="double-struck">E</mi><msub><mi>π</mi><mi>θ</mi></msub></msub><mo stretchy="false">[</mo><msub><mi mathvariant="normal">∇</mi><mi>θ</mi></msub><mi>log</mi><mo>⁡</mo><msub><mi>π</mi><mi>θ</mi></msub><mo stretchy="false">(</mo><mi>s</mi><mo separator="true">,</mo><mi>a</mi><mo stretchy="false">)</mo><msup><mi>Q</mi><msub><mi>π</mi><mi>θ</mi></msub></msup><mo stretchy="false">(</mo><mi>s</mi><mo separator="true">,</mo><mi>a</mi><mo stretchy="false">)</mo><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">\nabla_\theta J(\theta) = \mathbb{E}_{\pi_\theta} [\nabla_\theta \log \pi_\theta(s,a) Q^{\pi_\theta}(s,a)]
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord">∇</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">θ</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathnormal" style="margin-right:0.09618em;">J</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.02778em;">θ</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.00586em;vertical-align:-0.25586em;"></span><span class="mord"><span class="mord"><span class="mord mathbb">E</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.15139199999999997em;"><span style="top:-2.55em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3487714285714287em;margin-left:-0.03588em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">θ</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15122857142857138em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.25586em;"><span></span></span></span></span></span></span><span class="mopen">[</span><span class="mord"><span class="mord">∇</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">θ</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">θ</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathnormal">s</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mord"><span class="mord mathnormal">Q</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7143919999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3487714285714287em;margin-left:-0.03588em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">θ</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15122857142857138em;"><span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathnormal">s</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathnormal">a</span><span class="mclose">)</span><span class="mclose">]</span></span></span></span></span></p>
-<h2 id="矩阵测试"><a class="header-anchor" href="#矩阵测试">¶</a>矩阵测试</h2>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo fence="true">(</mo><mtable rowspacing="0.15999999999999992em" columnspacing="1em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>1</mn></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><msub><mi>a</mi><mn>1</mn></msub></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><msubsup><mi>a</mi><mn>1</mn><mn>2</mn></msubsup></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mo lspace="0em" rspace="0em">⋯</mo></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><msubsup><mi>a</mi><mn>1</mn><mi>n</mi></msubsup></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>1</mn></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><msub><mi>a</mi><mn>2</mn></msub></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><msubsup><mi>a</mi><mn>2</mn><mn>2</mn></msubsup></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mo lspace="0em" rspace="0em">⋯</mo></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><msubsup><mi>a</mi><mn>2</mn><mi>n</mi></msubsup></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mi><mi mathvariant="normal">⋮</mi><mpadded height="+0em" voffset="0em"><mspace mathbackground="black" width="0em" height="1.5em"></mspace></mpadded></mi></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mi><mi mathvariant="normal">⋮</mi><mpadded height="+0em" voffset="0em"><mspace mathbackground="black" width="0em" height="1.5em"></mspace></mpadded></mi></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mi><mi mathvariant="normal">⋮</mi><mpadded height="+0em" voffset="0em"><mspace mathbackground="black" width="0em" height="1.5em"></mspace></mpadded></mi></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mo lspace="0em" rspace="0em">⋱</mo></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mi><mi mathvariant="normal">⋮</mi><mpadded height="+0em" voffset="0em"><mspace mathbackground="black" width="0em" height="1.5em"></mspace></mpadded></mi></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mn>1</mn></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><msub><mi>a</mi><mi>m</mi></msub></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><msubsup><mi>a</mi><mi>m</mi><mn>2</mn></msubsup></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mo lspace="0em" rspace="0em">⋯</mo></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><msubsup><mi>a</mi><mi>m</mi><mi>n</mi></msubsup></mstyle></mtd></mtr></mtable><mo fence="true">)</mo></mrow><annotation encoding="application/x-tex">\begin{pmatrix}
-  1 &amp; a_1 &amp; a_1^2 &amp; \cdots &amp; a_1^n \\
-  1 &amp; a_2 &amp; a_2^2 &amp; \cdots &amp; a_2^n \\
-  \vdots &amp; \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
-  1 &amp; a_m &amp; a_m^2 &amp; \cdots &amp; a_m^n
-\end{pmatrix}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:5.459999999999999em;vertical-align:-2.4799999999999995em;"></span><span class="minner"><span class="mopen"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.950035em;"><span style="top:-1.3499850000000007em;"><span class="pstrut" style="height:3.1550000000000002em;"></span><span class="delimsizinginner delim-size4"><span>⎝</span></span></span><span style="top:-2.4999950000000006em;"><span class="pstrut" style="height:3.1550000000000002em;"></span><span class="delimsizinginner delim-size4"><span>⎜</span></span></span><span style="top:-3.0950050000000005em;"><span class="pstrut" style="height:3.1550000000000002em;"></span><span class="delimsizinginner delim-size4"><span>⎜</span></span></span><span style="top:-3.6900150000000003em;"><span class="pstrut" style="height:3.1550000000000002em;"></span><span class="delimsizinginner delim-size4"><span>⎜</span></span></span><span style="top:-3.7100150000000007em;"><span class="pstrut" style="height:3.1550000000000002em;"></span><span class="delimsizinginner delim-size4"><span>⎜</span></span></span><span style="top:-4.950035000000001em;"><span class="pstrut" style="height:3.1550000000000002em;"></span><span class="delimsizinginner delim-size4"><span>⎛</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:2.4500349999999997em;"><span></span></span></span></span></span></span><span class="mord"><span class="mtable"><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.9799999999999995em;"><span style="top:-5.8275em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord">1</span></span></span><span style="top:-4.6275em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord">1</span></span></span><span style="top:-2.7674999999999996em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord"><span class="mord">⋮</span><span class="mord rule" style="border-right-width:0em;border-top-width:1.5em;bottom:0em;"></span></span></span></span><span style="top:-1.5675000000000006em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:2.4799999999999995em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.9799999999999995em;"><span style="top:-5.8275em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-4.6275em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-2.7674999999999996em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord"><span class="mord">⋮</span><span class="mord rule" style="border-right-width:0em;border-top-width:1.5em;bottom:0em;"></span></span></span></span><span style="top:-1.5675000000000006em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:2.4799999999999995em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.9799999999999995em;"><span style="top:-5.8275em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span><span style="top:-4.6275em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span><span style="top:-2.7674999999999996em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord"><span class="mord">⋮</span><span class="mord rule" style="border-right-width:0em;border-top-width:1.5em;bottom:0em;"></span></span></span></span><span style="top:-1.5675000000000006em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4530000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">m</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:2.4799999999999995em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.9799999999999995em;"><span style="top:-5.64em;"><span class="pstrut" style="height:3.5em;"></span><span class="mord"><span class="minner">⋯</span></span></span><span style="top:-4.44em;"><span class="pstrut" style="height:3.5em;"></span><span class="mord"><span class="minner">⋯</span></span></span><span style="top:-2.5799999999999996em;"><span class="pstrut" style="height:3.5em;"></span><span class="mord"><span class="minner">⋱</span></span></span><span style="top:-1.3800000000000006em;"><span class="pstrut" style="height:3.5em;"></span><span class="mord"><span class="minner">⋯</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:2.4799999999999995em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.9799999999999995em;"><span style="top:-5.8275em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.664392em;"><span style="top:-2.4518920000000004em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span><span style="top:-4.6275em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.664392em;"><span style="top:-2.4518920000000004em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span><span style="top:-2.7674999999999996em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord"><span class="mord">⋮</span><span class="mord rule" style="border-right-width:0em;border-top-width:1.5em;bottom:0em;"></span></span></span></span><span style="top:-1.5675000000000006em;"><span class="pstrut" style="height:3.6875em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.664392em;"><span style="top:-2.4530000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">m</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:2.4799999999999995em;"><span></span></span></span></span></span></span></span><span class="mclose"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.950035em;"><span style="top:-1.3499850000000007em;"><span class="pstrut" style="height:3.1550000000000002em;"></span><span class="delimsizinginner delim-size4"><span>⎠</span></span></span><span style="top:-2.4999950000000006em;"><span class="pstrut" style="height:3.1550000000000002em;"></span><span class="delimsizinginner delim-size4"><span>⎟</span></span></span><span style="top:-3.0950050000000005em;"><span class="pstrut" style="height:3.1550000000000002em;"></span><span class="delimsizinginner delim-size4"><span>⎟</span></span></span><span style="top:-3.6900150000000003em;"><span class="pstrut" style="height:3.1550000000000002em;"></span><span class="delimsizinginner delim-size4"><span>⎟</span></span></span><span style="top:-3.7100150000000007em;"><span class="pstrut" style="height:3.1550000000000002em;"></span><span class="delimsizinginner delim-size4"><span>⎟</span></span></span><span style="top:-4.950035000000001em;"><span class="pstrut" style="height:3.1550000000000002em;"></span><span class="delimsizinginner delim-size4"><span>⎞</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:2.4500349999999997em;"><span></span></span></span></span></span></span></span></span></span></span></span></p>
-<p>End of Test.</p>
+        <h2 id="下载Picgo"><a class="header-anchor" href="#下载Picgo">¶</a>下载Picgo</h2>
+<p><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo/releases/tag/v2.4.1">Molunerfinn/PicGo: :rocket: The Ultimate Image Uploader for Efficient Creators. Supports Obsidian, Typora, VS Code etc. and 60+ image hosting services (S3, GitHub, Cloudflare R2, Imgur, Aliyun OSS…). Paste, upload, done.</a></p>
+<p>下载win 64bit ver.<br>
+截止到文章写作时的稳定版本是v2.4.1<br>
+正常安装到电脑上,中间的步骤按照安装指示即可</p>
+<h2 id="配置图床"><a class="header-anchor" href="#配置图床">¶</a>配置图床</h2>
+<p>这里我最终使用的是tcyun托管图片</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">    &quot;tcyun&quot;: &#123;</span><br><span class="line"></span><br><span class="line">      &quot;_configName&quot;: &quot;&lt;填写实际的config name&gt;&quot;,</span><br><span class="line"></span><br><span class="line">      &quot;area&quot;: &quot;&lt;在腾讯云里,填写实际存储数据的物理大区&gt;&quot;,</span><br><span class="line"></span><br><span class="line">      &quot;version&quot;: &quot;v5&quot;,&lt;新注册应该都是v5&gt;</span><br><span class="line"></span><br><span class="line">      &quot;secretId&quot;: &quot;&lt;填写自己的secretId&gt;&quot;,</span><br><span class="line"></span><br><span class="line">      &quot;secretKey&quot;: &quot;&lt;填写自己的secretKey&gt;&quot;,</span><br><span class="line"></span><br><span class="line">      &quot;bucket&quot;: &quot;&lt;完整的bucket名称, 注意包含后面的一串数字&gt;&quot;,</span><br><span class="line"></span><br><span class="line">      &quot;appId&quot;: &quot;&lt;在api 界面进行复制&gt;&quot;,</span><br><span class="line"></span><br><span class="line">    &#125;,</span><br></pre></td></tr></table></figure>
+<p>然后打开picgo的界面</p>
+<p><img src="https://daisy-imgbed-1394633080.cos.ap-beijing.myqcloud.com/20260106215109359.png" alt="picgo界面.png"></p>
+<h2 id="配置插件并检查端口"><a class="header-anchor" href="#配置插件并检查端口">¶</a>配置插件并检查端口</h2>
+<p>进入obsidian插件页面<br>
+搜索<code>Image auto upload</code> 插件, 安装并启动</p>
+<p><img src="https://daisy-imgbed-1394633080.cos.ap-beijing.myqcloud.com/20260106215433082.png" alt="Image_auto_upload.png"></p>
+<p>注意蓝圈里的端口默认应该是能对的上的<br>
+不过如果不能正常上传,但是在picgo里又能正常上传的话,大概率就是这里的原因</p>
+<p>注意勾选红圈里的选项</p>
+<p>然后就可以进行测试了,如果一切正常, 截图后粘贴, 图片就会自动被上传到云端, 文档中留下的是链接</p>
+<h2 id="踩坑实录"><a class="header-anchor" href="#踩坑实录">¶</a>踩坑实录</h2>
+<p>Obsidian 图床方案复盘：腾讯云 COS + PicGo</p>
+<h2 id="目标"><a class="header-anchor" href="#目标">¶</a>目标</h2>
+<p>在 Obsidian 里粘贴图片后自动上传，笔记里使用外链图片，减轻同步压力（Remote Save / 坚果云 WebDAV），同时保证链接长期稳定可用。</p>
+<ul>
+<li>个人笔记，图片总量预计 &lt; 1GB；月访问流量 &lt; 10GB。</li>
+<li>国内访问为主。</li>
+<li>不想折腾自定义域名/SSL 证书。</li>
+<li>之前 Imgur 插件的 Client ID/OAuth 路线受阻，决定换平台。</li>
+</ul>
+<hr>
+<h2 id="最终方案"><a class="header-anchor" href="#最终方案">¶</a>最终方案</h2>
+<ul>
+<li><strong>图片存储</strong>：腾讯云 COS（对象存储）</li>
+<li><strong>上传工具</strong>：PicGo（COS v5）</li>
+<li><strong>Obsidian 引用方式</strong>：Markdown 外链 <code>![](https://...)</code></li>
+<li><strong>缓存优化</strong>：通过 <strong>COS 控制台批量设置对象的 Cache-Control 响应头</strong>（不写脚本）</li>
+<li><strong>同步策略</strong>：只同步 Markdown 文本（附件不上同步或大幅减少），图片走公网访问</li>
+</ul>
+<p>一句话：<strong>文本走同步，图片走对象存储</strong>。</p>
+<hr>
+<h2 id="探索路线（思维地图）"><a class="header-anchor" href="#探索路线（思维地图）">¶</a>探索路线（思维地图）</h2>
+<h3 id="1-用工程拆分降低复杂度"><a class="header-anchor" href="#1-用工程拆分降低复杂度">¶</a>1) 用工程拆分降低复杂度</h3>
+<ul>
+<li>同步系统（WebDAV/坚果云/Remote Save）对二进制和高频请求不友好 → 让它只搬 <strong>Markdown 文本</strong>。</li>
+<li>大文件（图片）交给更擅长做静态资源分发的系统（对象存储） → <strong>COS</strong>。</li>
+</ul>
+<h3 id="2-寻找和配置图床"><a class="header-anchor" href="#2-寻找和配置图床">¶</a>2) 寻找和配置图床</h3>
+<h4 id="1-Imgur挂了"><a class="header-anchor" href="#1-Imgur挂了">¶</a>1. Imgur挂了</h4>
+<ul>
+<li>IImgur 的 addclient 入口目前无法使用（跳转首页），OAuth 也不稳定；疑似政策/接口调整. 但是这已经调整半年了,我觉得就是政策收紧.</li>
+<li>SM/MS则是直接停止了新用户注册</li>
+<li>结论：<strong>不死磕</strong>，换平台。</li>
+</ul>
+<h4 id="2-判断需求本质"><a class="header-anchor" href="#2-判断需求本质">¶</a>2) 判断需求本质</h4>
+<ul>
+<li>我需要的是“稳定可用的静态资源链接”，本质是 <strong>存储 + 公开读取 + HTTPS</strong>。</li>
+<li>所谓“图床”其实就是：<strong>能给出长期稳定的 URL</strong>。</li>
+</ul>
+<hr>
+<h2 id="成功落地步骤"><a class="header-anchor" href="#成功落地步骤">¶</a>成功落地步骤</h2>
+<h3 id="A-COS-侧配置"><a class="header-anchor" href="#A-COS-侧配置">¶</a>A. COS 侧配置</h3>
+<ol>
+<li>
+<p>创建存储桶（Region 选国内，例如北京 <code>ap-beijing</code>）。</p>
+</li>
+<li>
+<p>确保图片可长期显示：</p>
+<ul>
+<li>方案选择: <strong>公有读私有写</strong>（图片对象要允许公网读取）。</li>
+<li>只要链接要给 Obsidian/博客展示，就不能依赖“会过期的签名 URL”。</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>经验：<strong>“完全私有 + 永久在线可展示”天然矛盾</strong>。</p>
+</blockquote>
+<h3 id="B-PicGo-配置（COS-v5）"><a class="header-anchor" href="#B-PicGo-配置（COS-v5）">¶</a>B. PicGo 配置（COS v5）</h3>
+<ol>
+<li>
+<p>PicGo 图床选择：<strong>腾讯云 COS（v5）</strong></p>
+</li>
+<li>
+<p>填写关键参数：</p>
+<ul>
+<li><code>SecretId</code> / <code>SecretKey</code>（自己的腾讯云就只用来做图床一件事,于是直接用主账号管理了）(注意<code>SecretKey</code>只显示一次, 记得存下csv并妥善保存)</li>
+<li><code>AppId</code>(注意不是桶ID, 这个是在调用api的时候用到的)</li>
+<li><code>Bucket</code>：注意 v5 要写成 <code>bucketname-appid</code>(直接复制不要手动抄)</li>
+<li><code>Region</code>：例如 <code>ap-beijing</code>(同理,直接复制不要手动抄)</li>
+<li><code>Path</code>：建议设置一个统一前缀（例：<code>obsidian/2026/01/</code> 或 <code>img/</code>）</li>
+</ul>
+</li>
+<li>
+<p>上传测试：PicGo 返回一个 <code>https://...myqcloud.com/...png</code> 的链接, 在桶里能看到文件, 将链接粘贴到obsidian里能正常显示图片</p>
+</li>
+</ol>
+<h3 id="C-Obsidian-接入"><a class="header-anchor" href="#C-Obsidian-接入">¶</a>C. Obsidian 接入</h3>
+<ul>
+<li>
+<p>Obsidian 使用支持 Image_auto_upload 的插件,让其在粘贴时自动调用 PicGo 上传并把返回链接写入 Markdown。</p>
+</li>
+<li>
+<p>成功标志：复制后出现短暂的上传界面, 然后就和粘贴图片附件一样可以正常浏览</p>
+</li>
+</ul>
+<hr>
+<h2 id="Remote-Save-和-坚果云-的问题"><a class="header-anchor" href="#Remote-Save-和-坚果云-的问题">¶</a>Remote Save 和 坚果云 的问题</h2>
+<ul>
+<li>
+<p>WebDAV 常见 503，多半是<strong>服务端限流/保护</strong>导致短时间大量 PROPFIND/GET/PUT 很容易触发。</p>
+</li>
+<li>
+<p>我把图片从同步链路里拿掉 → 同步只处理 .md 文本：</p>
+</li>
+<li>
+<p>少让服务器频繁比对二进制文件</p>
+</li>
+<li>
+<p>同步系统压力下降，稳定性上升。</p>
+</li>
+</ul>
+<hr>
+<h2 id="缓存与成本：我做了什么、理解了什么"><a class="header-anchor" href="#缓存与成本：我做了什么、理解了什么">¶</a>缓存与成本：我做了什么、理解了什么</h2>
+<h3 id="1-缓存结论（够用版本）"><a class="header-anchor" href="#1-缓存结论（够用版本）">¶</a>1) 缓存结论（够用版本）</h3>
+<ul>
+<li>
+<p>Obsidian 桌面端本质上用的是浏览器渲染机制，外链图片走 <strong>HTTP 缓存</strong>。</p>
+</li>
+<li>
+<p>不是“每次打开必然完整下行”，但可能会发生：</p>
+<ul>
+<li>首次加载：200 下载（产生下行）</li>
+<li>之后：命中缓存（不下行）或 304 校验（请求次数增加、下行很小）</li>
+</ul>
+</li>
+<li>
+<p>缓存是否有效，取决于图片响应头（尤其 Cache-Control）和本地缓存是否被清理。</p>
+</li>
+</ul>
+<h3 id="2-我采用的缓存策略（不写脚本）"><a class="header-anchor" href="#2-我采用的缓存策略（不写脚本）">¶</a>2) 我采用的缓存策略（不写脚本）</h3>
+<p>我没用脚本，直接走 <strong>COS 控制台批处理</strong>：</p>
+<p><strong>操作路径（概念）</strong>：</p>
+<ul>
+<li>COS 控制台 → 文件列表 → 多选对象 → 批量操作 → 设置自定义 HTTP 头（Cache-Control）</li>
+</ul>
+<p><strong>Cache-Control 推荐值（适合“不可变文件名”的图床）</strong>：</p>
+<ul>
+<li><code>public, max-age=31536000, immutable</code>（缓存 1 年 + 资源不可变）</li>
+</ul>
+<p>为什么适合我：</p>
+<ul>
+<li>我上传的文件名是时间戳/随机串（不可变），几乎不会“同名覆盖更新”。 因此可以大胆长缓存，减少反复校验请求。</li>
+</ul>
+<blockquote>
+<p>如果未来我会“同名覆盖”，那就不要用 immutable，或者缩短 max-age。</p>
+</blockquote>
+<h3 id="3-计费直觉（够用版本）"><a class="header-anchor" href="#3-计费直觉（够用版本）">¶</a>3) 计费直觉（够用版本）</h3>
+<ul>
+<li>主要费用通常来自 <strong>公网下行流量</strong>。</li>
+<li>我估算：存储 &lt;1GB + 月下行 &lt;10GB → <strong>不值得上 CDN</strong>（复杂度 &gt; 收益）。</li>
+<li>所以选择：<strong>直接 COS 默认域名</strong>，就够了。</li>
+</ul>
+<hr>
+<h2 id="SSL-HTTPS：我最终的判断"><a class="header-anchor" href="#SSL-HTTPS：我最终的判断">¶</a>SSL/HTTPS：我最终的判断</h2>
+<ul>
+<li>我不需要“自己搞 SSL 证书”，因为 <strong>COS 默认域名自带 HTTPS</strong>（用 <code>https://</code> 即可） 只有当将来绑定自定义域名（比如 <code>img.xxx.com</code>）时，才需要额外处理证书。</li>
+<li>现在的当务之急是打好工作流, 然后赶紧开始产出文档本身.</li>
+</ul>
+<hr>
+<h2 id="常见问题与排查清单（未来踩坑时先看这里）"><a class="header-anchor" href="#常见问题与排查清单（未来踩坑时先看这里）">¶</a>常见问题与排查清单（未来踩坑时先看这里）</h2>
+<ol>
+<li><strong>Obsidian 里显示裂图/403</strong></li>
+</ol>
+<ul>
+<li>桶或对象权限是否允许公网读取？</li>
+<li>是否不小心用了签名 URL（会过期）？</li>
+<li>链接是否是 <code>https://</code>？</li>
+</ul>
+<ol start="2">
+<li><strong>上传成功但链接打不开</strong></li>
+</ol>
+<ul>
+<li>Region/Bucket 填错（尤其 v5 bucket 格式 <code>name-appid</code>）</li>
+<li>链接拼接域名错误</li>
+<li>对象是否被误删/生命周期规则清理</li>
+</ul>
+<ol start="3">
+<li><strong>坚果云 WebDAV 又 503</strong></li>
+</ol>
+<ul>
+<li>同步频率太高 / 文件太多</li>
+<li>减少自动同步，拉大间隔</li>
+<li>把大附件继续留在 COS，不走 WebDAV</li>
+</ul>
+<hr>
+<h2 id="经验"><a class="header-anchor" href="#经验">¶</a>经验</h2>
+<ol>
+<li><strong>遇到平台侧故障/入口变化，不要死磕</strong>：验证现象后果断换路线。</li>
+<li><strong>把问题抽象成“我需要长期稳定 URL 的静态资源”</strong>，就不会被“图床插件”绑架。</li>
+<li><strong>工程拆分</strong>：文本同步 ≠ 附件同步。二进制交给对象存储，能显著提高整体可靠性</li>
+<li><strong>先跑通，再优化</strong>：先让链接可用，再考虑缓存头、版本控制、路径规划等增强项。</li>
+<li>**文档读不懂不是我菜：我需要的是“任务地图”，不是百科全书。</li>
+</ol>
+<hr>
+<ul>
+<li>上传前做图片压缩/去 EXIF（省流量、提隐私）</li>
+<li>未来如果博客流量变大，再考虑 CDN（现在不用）</li>
+<li>后续有空换成子账号密钥，只给 COS 该桶写权限。</li>
+</ul>
+<h2 id="使用一个周后反馈"><a class="header-anchor" href="#使用一个周后反馈">¶</a>使用一个周后反馈</h2>
+<ul>
+<li>顺滑, 图片几乎无感地转化成云端存储, 没有遇到其他问题. 给同学配置也很方便</li>
+<li>另外有个之前没想到的惊喜:
+<ul>
+<li>图片可以很方便的在不同仓库之间引用和迁移, 只需要修改云端的源文件就可以无痛更改所有文档中的引用</li>
+</ul>
+</li>
+<li>费用几乎可以忽略不计, 正常作为笔记使用, 一天1分钱</li>
+</ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://daisywoodruff.github.io/2025/12/13/Mathtest/" data-id="cuid9cUAYtUV7MK88dJYbTVDH" data-title="Mathtest" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://daisywoodruff.github.io/2026/01/07/picgoMannual/" data-id="cuideW0n0bitNFXepWc6ghdNo" data-title="Picgo+Obsidian插件 教程" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/" rel="tag">插件使用</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%99%E7%A8%8B/" rel="tag">教程</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%87%AA%E7%94%A8%E8%AE%B0%E5%BD%95/" rel="tag">自用记录</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-Mathtest" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/12/13/Mathtest/" class="article-date">
+  <time class="dt-published" datetime="2022-12-13T07:21:29.000Z" itemprop="datePublished">2022-12-13</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/12/13/Mathtest/">Mathtest</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="啊啊啊啊"><a class="header-anchor" href="#啊啊啊啊">¶</a>啊啊啊啊</h2>
+<p>这里是折叠后的内容。<br>
+只有点击“阅读全文”按钮，用户才能看到这段话。</p>
+        
+          <p class="article-more-link">
+            <a href="/2022/12/13/Mathtest/#more">阅读全文</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://daisywoodruff.github.io/2022/12/13/Mathtest/" data-id="cuidaiaNvu2GN0-bt4aMBFSZ7" data-title="Mathtest" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Math/" rel="tag">Math</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/NLP/" rel="tag">NLP</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Transformer/" rel="tag">Transformer</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2025/12/13/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2025-12-13T06:45:01.059Z" itemprop="datePublished">2025-12-13</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2025/12/13/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a class="header-anchor" href="#Quick-Start">¶</a>Quick Start</h2>
-<h3 id="Create-a-new-post"><a class="header-anchor" href="#Create-a-new-post">¶</a>Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a class="header-anchor" href="#Run-server">¶</a>Run server</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a class="header-anchor" href="#Generate-static-files">¶</a>Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a class="header-anchor" href="#Deploy-to-remote-sites">¶</a>Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://daisywoodruff.github.io/2025/12/13/hello-world/" data-id="cuidqjJ1LIJTDoWQ4jAz4HdDG" data-title="Hello World" class="article-share-link"><span class="fa fa-share">分享</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-记录标准与Okr" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2025/12/11/%E8%AE%B0%E5%BD%95%E6%A0%87%E5%87%86%E4%B8%8EOkr/" class="article-date">
-  <time class="dt-published" datetime="2025-12-10T16:00:00.000Z" itemprop="datePublished">2025-12-11</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2025/12/11/%E8%AE%B0%E5%BD%95%E6%A0%87%E5%87%86%E4%B8%8EOkr/">记录标准和okr</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>第一个周是试运行, 你可以根据自己的情况提出反馈,我会根据你的情况进行适当调整.<br>
-从第二周开始,就是确定的规则和量化指标.</p>
-<p>每周内出现一次不当行为发一个yellow flag,<br>
-如果每周积攒&lt;= 2 yellow flag则周末销毁,<br>
-如果&gt;=3 的话则本周 yellow flag.</p>
-<p>每周对周结果进行打分, 根据结果决定是green flag/ yellow flag/ red flag. \</p>
-<p>如果本周日常出现问题,则降一级.<br>
-总共week12,<br>
-拿到6个green flag就算考核通过, 9个算优秀.<br>
-yellow flag不计数, red flag 会使green flag -1.</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://daisywoodruff.github.io/2025/12/11/%E8%AE%B0%E5%BD%95%E6%A0%87%E5%87%86%E4%B8%8EOkr/" data-id="cuid40hZtTFgU_QYi3P9lEn03" data-title="记录标准和okr" class="article-share-link"><span class="fa fa-share">分享</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%92%8C%E5%85%94%E7%90%83%E7%9A%84%E7%94%9F%E6%B4%BB/" rel="tag">和兔球的生活</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%97%A5%E5%B8%B8%E6%B4%BB%E5%8A%A8/" rel="tag">日常活动</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%97%A5%E8%AE%B0/" rel="tag">日记</a></li></ul>
 
     </footer>
   </div>
@@ -347,7 +497,7 @@ yellow flag不计数, red flag 会使green flag -1.</p>
   <div class="widget-wrap">
     <h3 class="widget-title">标签</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Math/" rel="tag">Math</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/MoE/" rel="tag">MoE</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NLP/" rel="tag">NLP</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Transformer/" rel="tag">Transformer</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%92%8C%E5%85%94%E7%90%83%E7%9A%84%E7%94%9F%E6%B4%BB/" rel="tag">和兔球的生活</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="tag">学习笔记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%A5%E5%B8%B8%E6%B4%BB%E5%8A%A8/" rel="tag">日常活动</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%A5%E8%AE%B0/" rel="tag">日记</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Math/" rel="tag">Math</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/MoE/" rel="tag">MoE</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NLP/" rel="tag">NLP</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Transformer/" rel="tag">Transformer</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="tag">学习笔记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/" rel="tag">插件使用</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%99%E7%A8%8B/" rel="tag">教程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%87%AA%E7%94%A8%E8%AE%B0%E5%BD%95/" rel="tag">自用记录</a></li></ul>
     </div>
   </div>
 
@@ -357,7 +507,7 @@ yellow flag不计数, red flag 会使green flag -1.</p>
   <div class="widget-wrap">
     <h3 class="widget-title">标签云</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Math/" style="font-size: 10px;">Math</a> <a href="/tags/MoE/" style="font-size: 10px;">MoE</a> <a href="/tags/NLP/" style="font-size: 10px;">NLP</a> <a href="/tags/Transformer/" style="font-size: 10px;">Transformer</a> <a href="/tags/%E5%92%8C%E5%85%94%E7%90%83%E7%9A%84%E7%94%9F%E6%B4%BB/" style="font-size: 10px;">和兔球的生活</a> <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" style="font-size: 10px;">学习笔记</a> <a href="/tags/%E6%97%A5%E5%B8%B8%E6%B4%BB%E5%8A%A8/" style="font-size: 10px;">日常活动</a> <a href="/tags/%E6%97%A5%E8%AE%B0/" style="font-size: 10px;">日记</a>
+      <a href="/tags/Math/" style="font-size: 10px;">Math</a> <a href="/tags/MoE/" style="font-size: 10px;">MoE</a> <a href="/tags/NLP/" style="font-size: 10px;">NLP</a> <a href="/tags/Transformer/" style="font-size: 10px;">Transformer</a> <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" style="font-size: 10px;">学习笔记</a> <a href="/tags/%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/" style="font-size: 10px;">插件使用</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 10px;">教程</a> <a href="/tags/%E8%87%AA%E7%94%A8%E8%AE%B0%E5%BD%95/" style="font-size: 10px;">自用记录</a>
     </div>
   </div>
 
@@ -366,7 +516,7 @@ yellow flag不计数, red flag 会使green flag -1.</p>
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/01/">一月 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/12/">十二月 2025</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/01/">一月 2026</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/12/">十二月 2022</a></li></ul>
     </div>
   </div>
 
@@ -383,15 +533,11 @@ yellow flag不计数, red flag 会使green flag -1.</p>
           </li>
         
           <li>
-            <a href="/2025/12/13/Mathtest/">Mathtest</a>
+            <a href="/2026/01/07/picgoMannual/">Picgo+Obsidian插件 教程</a>
           </li>
         
           <li>
-            <a href="/2025/12/13/hello-world/">Hello World</a>
-          </li>
-        
-          <li>
-            <a href="/2025/12/11/%E8%AE%B0%E5%BD%95%E6%A0%87%E5%87%86%E4%B8%8EOkr/">记录标准和okr</a>
+            <a href="/2022/12/13/Mathtest/">Mathtest</a>
           </li>
         
       </ul>
